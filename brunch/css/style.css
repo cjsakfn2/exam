@@ -1,0 +1,364 @@
+/* reset */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border: 0 none
+}
+
+dl, ul, ol, menu, li {
+    list-style: none
+}
+
+blockquote, q {
+    quotes: none
+}
+
+button {
+    border: 0 none;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    border-radius: 0px;
+}
+
+body {
+    background: #fff;
+    color: #333;
+}
+
+body, button, input {
+    font-size:14px;
+    line-height:1.5;
+}
+
+a {
+    color: #333;
+    text-decoration: none
+}
+
+caption, em{
+    font-style: normal;
+    font-weight: normal;
+}
+
+.cl_b {
+    clear: both;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    line-height: 0
+}
+
+.hide {
+    display: none;
+}
+
+/* 공통 */
+.box3 {
+    display: inline-block;
+    overflow: hidden;
+    background: url(//brunch/img/ico_brunch8_181106.png) no-repeat;
+    line-height: 0;
+    text-indent: -9999px;
+    vertical-align: top;
+}
+
+.box41 {
+    display: inline-block;
+    overflow: hidden;
+    background: url(//brunch/img/ico_brunch_v1_210624.png) no-repeat;
+    line-height: 0;
+    text-indent: -9999px;
+    vertical-align: top;
+}
+
+/* 배너 */
+.wrap_banner {
+    margin-top:-420px
+}
+
+.box2 {
+    display: none;
+}
+
+.box6 {
+    overflow: hidden;
+    position: absolute;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    text-indent: -9999px;
+}
+
+.close {
+    display: inline-block;
+    overflow: hidden;
+    background: url(//brunch/img/ico_brunch_v1_210624.png) no-repeat;
+    line-height: 0;
+    text-indent: -9999px;
+    vertical-align: top;
+}
+/* 사이드메뉴 */
+.box4 {
+    margin: 30px 30px 0;
+}
+
+.menu {
+    float: left;
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    z-index: 10000;
+    transition:background 0.3s ease-in 0s;
+    top: 0;
+    background: url(//brunch/img/ico_view_cover.v4.png) no-repeat;
+}
+
+.menusidebar {
+    float: left;
+    background-position: 0 -58px;
+}
+
+.sidemenubar {
+    height: 512px;
+}
+
+.finduser {
+    position: inherit;
+}
+
+.sidebanner {
+    padding-bottom: 40px;
+}
+
+.sideproject img {
+    width: 168px;
+}
+
+/* 검색 */
+.box5 {
+    float: right
+}
+
+.btnmenusearch {
+    background: url(//brunch/img/ico_view_cover.v4.png) no-repeat;
+}
+
+.box5btnsearch {
+    float: right
+}
+
+.btnclosesidemenu {
+    display: inline-block;
+    overflow: hidden;
+    background: url(//brunch/img/ico_brunch_v1_210624.png) no-repeat;
+    line-height: 0;
+    text-indent: -9999px;
+    vertical-align: top;
+}
+
+/* 공지글 */
+.sns1 .box11 {
+    display: list-item;
+}
+
+.sns1 .info1 {
+    display: none;
+}
+
+/* 본문 */
+.box7 {
+    display: inline-block;
+    overflow: hidden;
+    background: url(//brunch/img/ico_brunch_v1_210624.png) no-repeat;
+    line-height: 0;
+    text-indent: -9999px;
+    vertical-align: top;
+}
+
+/* 슬라이드 */
+.slide .list_slide {
+    width: 900%; transform: translateX(0px);
+    transition: -webkit-transform 0.3s ease 0s;
+}
+
+.bylist {
+    display: inline-block;
+    overflow: hidden;
+    background: url(//brunch/img/ico_brunch_v1_210624.png) no-repeat;
+    line-height: 0;
+    text-indent: -9999px;
+    vertical-align: top;
+}
+
+/* 이전, 다음  */
+.box26 .btn_prev {
+    display: none;
+}
+
+/* 키워드 */
+.keyword_list .home_keyword {
+    height: 363px;
+}
+
+.keyword1 {
+    left: 120px; top: 0px;
+}
+
+.keyword2 {
+    left: 240px; top: 0px;
+}
+
+.keyword3 {
+    left: 360px; top: 0px;
+}
+
+.keyword4 {
+    left: 600px; top: 0px;
+}
+
+.keyword5 {
+    left: 720px; top: 0px;
+}
+
+.keyword6 {
+    left: 840px; top: 0px;
+}
+
+.keyword7 {
+    left: 0px; top: 120px;
+}
+
+.keyword8 {
+    left: 120px; top: 120px;
+}
+
+.keyword9 {
+    left: 240px; top: 120px;
+}
+
+.keyword10 {
+    left: 360px; top: 120px;
+}
+
+.keyword11 {
+    left: 480px; top: 120px;
+}
+
+.keyword12 {
+    left: 600px; top: 120px;
+}
+
+.keyword13 {
+    left: 720px; top: 120px;
+}
+
+.keyword14 {
+    left: 840px; top: 120px;
+}
+
+.keyword15 {
+    left: 0px; top: 240px;
+}
+
+.keyword16 {
+    left: 120px; top: 240px;
+}
+
+.keyword17 {
+    left: 240px; top: 240px;
+}
+
+.keyword18 {
+    left: 360px; top: 240px;
+}
+
+.keyword19 {
+    left: 480px; top: 240px;
+}
+
+.keyword20 {
+    left: 600px; top: 240px;
+}
+
+.keyword21 {
+    left: 720px; top: 240px;
+}
+
+.keyword22 {
+    left: 840px; top: 240px;
+}
+
+/* 작가부분 */
+.box30 .box31 .box32 .box35 {
+    height: 60px;
+}
+
+.box31 {
+    display: none;
+}
+
+.box38 {
+    display: inline-block;
+    overflow: hidden;
+    background: url(//brunch/img/ico_brunch_v1_210624.png) no-repeat;
+    line-height: 0;
+    text-indent: -9999px;
+    vertical-align: top;
+}
+/* Recommended부분 */
+.articles .popular .list_slide {
+    width: 7800px;
+}
+
+.box26 .btn_prev {
+    display: none;
+}
+
+/* footer */
+.top {
+    bottom: -80px;
+    display: block;
+    overflow: hidden;
+    font-size: 0px;
+    line-height: 0;
+    text-indent: -9999px;
+}
+
+.foot_logo {
+    display: inline-block;
+    overflow: hidden;
+    background: url(//brunch/img/ico_brunch_v1_210624.png) no-repeat;
+    line-height: 0;
+    text-indent: -9999px;
+    vertical-align: top;
+}
+
+.android {
+    display: inline-block;
+    overflow: hidden;
+    background: url(//brunch/img/ico_brunch_v1_210624.png) no-repeat;
+    line-height: 0;
+    text-indent: -9999px;
+    vertical-align: top;
+}
+
+.ios {
+    display: inline-block;
+    overflow: hidden;
+    background: url(//brunch/img/ico_brunch_v1_210624.png) no-repeat;
+    line-height: 0;
+    text-indent: -9999px;
+    vertical-align: top;
+}
+
+.btnclose {
+    display: block;
+    overflow: hidden;
+    font-size: 0px;
+    line-height: 0;
+    text-indent: -9999px
+}
