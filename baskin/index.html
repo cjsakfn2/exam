@@ -1,122 +1,191 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>베스킨라빈스</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <!-- 헤더 -->
-    <div class="top-bar">
-        <div class="header">
-            <ul class="icon">
-                <li class="iconimg"><a href="#"><img src="img/icon_facebook.png" alt="페이스북"></a></li>
-                <li class="iconimg"><a href="#"><img src="img/icon_twitter.png" alt="트위터"></a></li>
-                <li class="iconimg"><a href="#"><img src="img/icon_blog.png" alt="블로그"></a></li>
-                <li class="iconimg"><a href="#"><img src="img/icon_instgram.png" alt="인스타그램"></a></li>
-                <li class="iconimg"><a href="#"><img src="img/icon_youtube.png" alt="유투브"></a></li>
-            </ul>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+        <title>베스킨라빈스</title>
 
-            <div class="logo"><a href="#"><img src="img/logo_baskinrobbins.png" alt="베스킨라빈스로고"></a></div>
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+        
+        <link rel="stylesheet" type="text/css" href="css/style.css">
 
-            <ul class="logo-right">
-                <li class="right">
+        <!-- owl carousel 불러오기 -->
+        <link rel="stylesheet" href="node_modules/owl.carousel/dist/owl.carousel.min.js" />
+        <link rel="stylesheet" href="node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
+        <link rel="stylesheet" href="node_modules/owl.carousel/dist/assets/owl.theme.default.min.css" />
+    </head>
+
+    <body>
+        <!-- 헤더 -->
+        <div class="top-bar">
+            <div class="header">
+                <ul class="icon">
+                    <li class="iconimg"><a href="https://www.facebook.com/baskinrobbinskr/" target="_blank"><img src="img/icon_facebook.png" alt="페이스북"></a></li>
+                    <li class="iconimg"><a href="https://twitter.com/BaskinrobbinsKR" target="_blank"><img src="img/icon_twitter.png" alt="트위터"></a></li>
+                    <li class="iconimg"><a href="https://blog.naver.com/brgirl31" target="_blank"><img src="img/icon_blog.png" alt="블로그"></a></li>
+                    <li class="iconimg"><a href="https://www.instagram.com/baskinrobbinskorea/" target="_blank"><img src="img/icon_instgram.png" alt="인스타그램"></a></li>
+                    <li class="iconimg"><a href="https://www.youtube.com/user/baskinrobbinskorea" target="_blank"><img src="img/icon_youtube.png" alt="유투브"></a></li>
+                </ul>
+    
+                <div class="logo"><a href="http://www.baskinrobbins.co.kr/"><img src="img/logo_baskinrobbins.png" alt="베스킨라빈스로고"></a></div>
+    
+                <ul class="logo-right">
+                    <li class="right">
+                        <ul class="info">
+                            <li class="inforight"><a href="http://www.baskinrobbins.co.kr/customer/ccm.php">고객센터</a></li>
+                            <li class="inforight"><a href="http://www.baskinrobbins.co.kr/about/contact_us.php">CONTACT US</a></li>
+                        </ul>
+                    </li>
+                    <li class="search">
+                        <ul>
+                            <li><a href="#"><img src="img/icon_search.png" alt="검색"></a></li>
+                            <li><a href="#"><img src="img/btn_search_close.gif" alt="닫기"></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- 메뉴바 영역 -->
+        <div class="menu-bar">
+            <div class="container">
+                <div class="login">
                     <ul class="info">
-                        <li class="inforight"><a href="#">고객센터</a></li>
-                        <li class="inforight"><a href="#">CONTACT US</a></li>
+                        <li class="login1"><a href="http://www.baskinrobbins.co.kr/sso/login.php"><span></span></a></li>
+                        <li class="login2"><a href="https://www.happypointcard.com/page/join/index.spc" target="_blank"><span></span></a></li>
                     </ul>
-                </li>
-                <li class="search">
-                    <ul>
-                        <li><a href="#"><img src="img/icon_search.png" alt="검색"></a></li>
-                        <li><a href="#"><img src="img/btn_search_close.gif" alt="닫기"></a></li>
+                </div>
+    
+                <div id="menu-list" class="menu-list1">
+                    <ul class="menu-list2">
+                        <li class="menu">
+                            <a href="#"><span></span></a>
+                            <ul>
+                                <li><a href="http://www.baskinrobbins.co.kr/menu/fom.php"><img src="img/img_monthly_fom_211101.png" alt="치즈나무숲"></a></li>
+                            </ul>
+                        </li>
+                        <li class="menu">
+                            <a href="http://www.baskinrobbins.co.kr/menu/main.php"><span></span></a>
+                            <ul>
+                                <li><a href="http://www.baskinrobbins.co.kr/menu/list.php?top=A">아이스크림</a></li>
+                                <li><a href="http://www.baskinrobbins.co.kr/menu/list.php?top=B">아이스크림케이크</a></li>
+                                <li><a href="http://www.baskinrobbins.co.kr/menu/list.php?top=C">음료</a></li>
+                                <li><a href="http://www.baskinrobbins.co.kr/menu/list.php?top=D">커피</a></li>
+                                <li><a href="http://www.baskinrobbins.co.kr/menu/list.php?top=E">디저트</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu">
+                            <a href="http://www.baskinrobbins.co.kr/menu/nutrition_new.php"><span></span></a>
+                            <ul>
+                                <li><a href="http://www.baskinrobbins.co.kr/menu/nutrition_new.php?top=A">아이스크림</a></li>
+                                <li><a href="http://www.baskinrobbins.co.kr/menu/nutrition_new.php?top=C">음료</a></li>
+                                <li><a href="http://www.baskinrobbins.co.kr/menu/nutrition_new.php?top=D">커피</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu">
+                            <a href="http://www.baskinrobbins.co.kr/event/list.php"><span></span></a>
+                            <ul>
+                                <li><a href="http://www.baskinrobbins.co.kr/event/list.php">진행중인이벤트</a></li>
+                                <li><a href="http://www.baskinrobbins.co.kr/event/winner.php">당첨자발표</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu">
+                            <a href="http://www.baskinrobbins.co.kr/store/map.php"><span></span></a>
+                            <ul>
+                                <li><a href="http://www.baskinrobbins.co.kr/store/map.php">매장찾기</a></li>
+                                <li><a href="http://www.baskinrobbins.co.kr/customer/ccm.php">고객센터</a></li>
+                                <li><a href="http://www.baskinrobbins.co.kr/store/catering2.php">단체주문</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu">
+                            <a href="http://www.baskinrobbins.co.kr/about/notice_list.php"><span></span></a>
+                            <ul>
+                                <li><a href="http://www.baskinrobbins.co.kr/about/notice_list.php">공지사항</a></li>
+                                <li><a href="http://www.baskinrobbins.co.kr/about/press_list.php">보도자료</a></li>
+                                <li><a href="http://www.baskinrobbins.co.kr/about/jobs.php">채용정보</a></li>
+                                <li><a href="http://www.baskinrobbins.co.kr/about/br_system.php">점포개설문의</a></li>
+                                <li><a href="http://www.baskinrobbins.co.kr/about/contact_us.php">CONTACT US</a></li>
+                            </ul>
+                        </li>
                     </ul>
+                    <div class="menu-list3"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 이달의 맛 배너 -->
+    <div class="flavor">
+        <a href="http://www.baskinrobbins.co.kr/menu/fom.php"></a>
+    </div>
+        
+    <!-- 이미지 슬라이더 -->
+    <div class="section">
+        <input type="radio" name="slide" id="slide01" checked>
+        <input type="radio" name="slide" id="slide02">
+        <input type="radio" name="slide" id="slide03">
+        <input type="radio" name="slide" id="slide04">
+        <input type="radio" name="slide" id="slide05">
+        <div class="slidewrap">
+            <ul class="slidelist">
+                <li class="slideitem">
+                    <a href="http://www.baskinrobbins.co.kr/menu/fom.php#area4">
+                        <img src="img/1610330217.jpg">
+                    </a>
                 </li>
+                <li class="slideitem">
+                    <a href="http://www.baskinrobbins.co.kr/event/view.php?flag=&seq=9824">
+                        <img src="img/1657508413.png">
+                    </a>
+                </li>
+                <li class="slideitem">
+                    <a href="http://www.baskinrobbins.co.kr/event/view.php?flag=&seq=9784">
+                        <img src="img/1620718839.png">
+                    </a>
+                </li>
+                <li class="slideitem">
+                    <a href="http://www.baskinrobbins.co.kr/event/view.php?flag=&seq=9164">
+                        <img src="img/1620351475.png">
+                    </a>
+                </li>
+                <li class="slideitem">
+                    <a href="http://www.baskinrobbins.co.kr/event/view.php?flag=&seq=8624">
+                        <img src="img/1630631572.jpg">
+                    </a>
+                </li class="slideitem">
+
+                <div class="slide-control">
+                    <div>
+                        <label for="slide05" class="left"></label>
+                        <label for="slide02" class="right"></label>
+                    </div>
+                    <div>
+                        <label for="slide01" class="left"></label>
+                        <label for="slide03" class="right"></label>
+                    </div>
+                    <div>
+                        <label for="slide02" class="left"></label>
+                        <label for="slide04" class="right"></label>
+                    </div>
+                    <div>
+                        <label for="slide03" class="left"></label>
+                        <label for="slide05" class="right"></label>
+                    </div>
+                    <div>
+                        <label for="slide04" class="left"></label>
+                        <label for="slide01" class="right"></label>
+                    </div>
+                </div>
+
+            </ul>
+            <!-- 페이징 -->
+            <ul class="slide-pagelist">
+                <li><label for="slide01"></label></li>
+                <li><label for="slide02"></label></li>
+                <li><label for="slide03"></label></li>
+                <li><label for="slide04"></label></li>
+                <li><label for="slide05"></label></li>
             </ul>
         </div>
-    </div>
-
-    <!-- 메뉴바 -->
-    <div class="menu-bar">
-        <div class="container">
-            <div class="login">
-                <ul class="info">
-                    <li class="login"><a href="#"><span></span></a></li>
-                    <li class="login"><a href="#"><span></span></a></li>
-                </ul>
-            </div>
-
-            <div id="menu-list" class="menu-list1">
-                <ul class="menu-list2">
-                    <li class="menu">
-                        <a href="#"><span></span></a>
-                        <ul>
-                            <li><a href="#"><img src="img/img_monthly_fom_211101.png" alt="치즈나무숲"></a></li>
-                        </ul>
-                    </li>
-                    <li class="menu">
-                        <a href="#"><span></span></a>
-                        <ul>
-                            <li><a href="#">아이스크림</a></li>
-                            <li><a href="#">아이스크림케이크</a></li>
-                            <li><a href="#">음료</a></li>
-                            <li><a href="#">커피</a></li>
-                            <li><a href="#">디저트</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu">
-                        <a href="#"><span></span></a>
-                        <ul>
-                            <li><a href="#">아이스크림</a></li>
-                            <li><a href="#">음료</a></li>
-                            <li><a href="#">커피</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu">
-                        <a href="#"><span></span></a>
-                        <ul>
-                            <li><a href="#">진행중인이벤트</a></li>
-                            <li><a href="#">당첨자발표</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu">
-                        <a href="#"><span></span></a>
-                        <ul>
-                            <li><a href="#">매장찾기</a></li>
-                            <li><a href="#">고객센터</a></li>
-                            <li><a href="#">단체주문</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu">
-                        <a href="#"><span></span></a>
-                        <ul>
-                            <li><a href="#">공지사항</a></li>
-                            <li><a href="#">보도자료</a></li>
-                            <li><a href="#">채용정보</a></li>
-                            <li><a href="#">점포개설문의</a></li>
-                            <li><a href="#">CONTACT US</a></li>
-                        </ul>
-                    </li>
-                </ul>
-                <div class="menu-list3"></div>
-            </div>
-        </div>
-    </div>
-
-    <!-- 이달의 맛 배너 -->
-    <div class="flavor">
-        <a href="#"></a>
-    </div>
-
-    <!-- 이미지 슬라이더 -->
-    <div class="imgslide">
-        <div class="slide"><img src="img/1610330217.jpg" alt=""></div>
-        <div class="slide"><img src="img/1657508413.png" alt=""></div>
-        <div class="slide"><img src="img/1620718839.png" alt=""></div>
-        <div class="slide"><img src="img/1620351475.png" alt=""></div>
-        <div class="slide"><img src="img/1630631572.jpg" alt=""></div>
     </div>
 
     <!-- br event -->
@@ -126,87 +195,100 @@
                 <img src="img/h_event.png" alt="event">
             </div>
             <div class="eventlist">
-                <ul class="eventlist1">
-                    <li class="eventlist2">
-                        <a href="#">
-                            <div class="img-box1">
-                                <img src="img/banner_delivery.png" alt="">
-                            </div>
-                            <div class="txt-box1">
-                                <div class="store-event"><img src="img/stit_store.gif" alt="스토어이벤트"></div>
-                                <div class="text">해피오더 딜리버리로 간편하게 주문하세요!</div>
-                                <div class="day">상시진행</div>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="eventlist2">
-                        <a href="#">
-                            <div class="img-box1">
-                                <img src="img/banner_delivery_bm.png" alt="">
-                            </div>
-                            <div class="txt-box1">
-                                <div class="store-event"><img src="img/stit_store.gif" alt="스토어이벤트"></div>
-                                <div class="text">배달의 민족에서 빠르게 주문하세요!</div>
-                                <div class="day">상시진행</div>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="eventlist2">
-                        <a href="#">
-                            <div class="img-box1">
-                                <img src="img/banner_delivery_ygy.png" alt="">
-                            </div>
-                            <div class="txt-box">
-                                <div class="store-event"><img src="img/stit_store.gif" alt="스토어이벤트"></div>
-                                <div class="text">요기요에서 손쉽게 주문하세요!</div>
-                                <div class="day">상시진행</div>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="eventlist2">
-                        <a href="#">
-                            <div class="img-box1">
-                                <img src="img/banner_delivery_kakao.png" alt="">
-                            </div>
-                            <div class="txt-box">
-                                <div class="store-event"><img src="img/stit_store.gif" alt="스토어이벤트"></div>
-                                <div class="text">카카오톡 주문하기에서 편리하게 주문하세요!</div>
-                                <div class="day">상시진행</div>
-                            </div>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
-    <div class="menu-box">
-        <div class="content2">
-            <div class="title2">
-                <img src="img/h_menu.png">
-            </div>
-            <div class="menulist">
-                <div class="menulist1">
-                    <div class="menulist2">
-                        <img src="img/bg_menu.jpg" alt="배경">
-                        <img src="img/img_menu_list_211101.png" alt="이미지메뉴">
-                    </div>
+                <input type="radio" name="slider" id="slider1" checked>
+                <input type="radio" name="slider" id="slider2">
+                <input type="radio" name="slider" id="slider3">
+                <div class="slider-list">
+                    <ul class="eventlist1">
+                        <li class="eventlist2">
+                            <a href="http://www.baskinrobbins.co.kr/store/catering.php">
+                                <div class="img-box1">
+                                    <img src="img/banner_delivery.png" alt="">
+                                </div>
+                                <div class="txt-box1">
+                                    <div class="store-event"><img src="img/stit_store.gif" alt="스토어이벤트"></div>
+                                    <div class="text"><strong>해피오더 딜리버리로 간편하게 주문하세요!</strong></div>
+                                    <div class="day">상시진행</div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="eventlist2">
+                            <a href="http://www.baskinrobbins.co.kr/store/catering.php">
+                                <div class="img-box1">
+                                    <img src="img/banner_delivery_bm.png" alt="">
+                                </div>
+                                <div class="txt-box1">
+                                    <div class="store-event"><img src="img/stit_store.gif" alt="스토어이벤트"></div>
+                                    <div class="text"><strong>배달의 민족에서 빠르게 주문하세요!</strong></div>
+                                    <div class="day">상시진행</div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="eventlist2">
+                            <a href="http://www.baskinrobbins.co.kr/store/catering.php">
+                                <div class="img-box1">
+                                    <img src="img/banner_delivery_ygy.png" alt="">
+                                </div>
+                                <div class="txt-box1">
+                                    <div class="store-event"><img src="img/stit_store.gif" alt="스토어이벤트"></div>
+                                    <div class="text"><strong>요기요에서 손쉽게 주문하세요!</strong></div>
+                                    <div class="day">상시진행</div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="eventlist2">
+                            <a href="http://www.baskinrobbins.co.kr/store/catering.php">
+                                <div class="img-box1">
+                                    <img src="img/banner_delivery_kakao.png" alt="">
+                                </div>
+                                <div class="txt-box1">
+                                    <div class="store-event"><img src="img/stit_store.gif" alt="스토어이벤트"></div>
+                                    <div class="text"><strong>카카오톡 주문하기에서 편리하게 주문하세요!</strong></div>
+                                    <div class="day">상시진행</div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="slide-list">
+                        <li><label for="slider1"></label></li>
+                        <li><label for="slider2"></label></li>
+                        <li><label for="slider3"></label></li>
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
 
+    <!-- br menu -->
+    <div class="menu-box">
+        <div class="content2">
+            <div class="title2">
+                <img src="img/h_menu.png">
+            </div>
+            <div class="menu-box1">
+                <div class="menu-box2">
+                    <div class="menu-box3">
+                        <img src="img/img_menu_list_211101.png" alt="이미지메뉴" class="menu-box5">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="img/bg_menu.jpg" alt="배경" class="menu-box4">
+    </div>
+
+    <!-- br store -->
     <div class="content3">
         <div class=title3>
-            <img src="img/h_store.png" alt="br store">
-            <img src="img/h_happyorder_delivery.png" alt="Happy order & delivery">
+            <img src="img/h_store.png" alt="br store" class="store1">
+            <img src="img/h_happyorder_delivery.png" alt="Happy order & delivery" class="store2">
         </div>
         <div class="store-search">
-            <img src="img/img_store.jpg" alt="매장찾기">
-            <img src="img/img_happyorder_delivery.png" alt="배달서비스">
+            <a href="http://www.baskinrobbins.co.kr/store/map.php"><img src="img/img_store.jpg" alt="매장찾기" class="store3"></a>
+            <a href="http://www.baskinrobbins.co.kr/store/catering.php"><img src="img/img_happyorder_delivery.png" alt="배달서비스" class="store4"></a>
         </div>
     </div>
 
+    <!-- sns -->
     <div class="content4">
         <div class="title4">
             <img src="img/h_sns.png" alt="sns">
@@ -214,54 +296,171 @@
         <div class="snslist1">
             <div class="snslist2">
                 <ul class="snsicon">
-                    <li class="snsimg"><a href="#"><img src="img/sns_facebook.png" alt="페이스북"></a></li>
-                    <li class="snsimg"><a href="#"><img src="img/sns_twitter.png" alt="트위터"></a></li>
-                    <li class="snsimg"><a href="#"><img src="img/sns_blog.png" alt="블로그"></a></li>
-                    <li class="snsimg"><a href="#"><img src="img/sns_instagram.png" alt="인스타그램"></a></li>
-                    <li class="snsimg"><a href="#"><img src="img/sns_youtube.png" alt="유투브"></a></li>
+                    <li class="snsimg"><a href="https://www.facebook.com/baskinrobbinskr/" target="_blank"><img src="img/sns_facebook.png" alt="페이스북"></a></li>
+                    <li class="snsimg"><a href="https://twitter.com/BaskinrobbinsKR" target="_blank"><img src="img/sns_twitter.png" alt="트위터"></a></li>
+                    <li class="snsimg"><a href="https://blog.naver.com/brgirl31" target="_blank"><img src="img/sns_blog.png" alt="블로그"></a></li>
+                    <li class="snsimg"><a href="https://www.instagram.com/baskinrobbinskorea/" target="_blank"><img src="img/sns_instagram.png" alt="인스타그램"></a></li>
+                    <li class="snsimg"><a href="https://www.youtube.com/user/baskinrobbinskorea" target="_blank"><img src="img/sns_youtube.png" alt="유투브"></a></li>
                 </ul>
             </div>
         </div>
     </div>
 
-    <div class="instagram1">
-        <a href="#"><img src="img/tit_sns.png"></a>
-        <div class="instagram2">
-            <ul class="instaimg1">
-                <li class="instaimg2"><img src="img/CT3RBuEvy37_carousel_01.jpg"></li>
-                <li class="instaimg2"><img src="img/CT4ZpihFR1u_image.jpg"></li>
-                <li class="instaimg2"><img src="img/CUB4_KEFWAX_carousel_01.jpg"></li>
-                <li class="instaimg2"><img src="img/CUCdMygFFBD_carousel_01.jpg"></li>
-                <li class="instaimg2"><img src="img/CUE6lHJPZ79_carousel_01.jpg"></li>
+        <!-- instagram -->
+        <div id="image-list-container">
+            <a href="https://www.instagram.com/baskinrobbinskorea/" target="_blank"><img src="img/tit_sns.png" class="title5"></a>
+            <ul class="clearfix">
+                <li class="pull-left">
+                    <div class="item-box">
+                        <div class="item-box-pd">
+                            <a href="#" style="background-image: url(img/CT3RBuEvy37_carousel_01.jpg);">
+                            </a>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="pull-left">
+                    <div class="item-box">
+                        <div class="item-box-pd">
+                            <a href="#" style="background-image: url(img/CT4ZpihFR1u_image.jpg);">
+                            </a>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="pull-left">
+                    <div class="item-box">
+                        <div class="item-box-pd">
+                            <a href="#" style="background-image: url(img/CUB4_KEFWAX_carousel_01.jpg);">
+                            </a>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="pull-left">
+                    <div class="item-box">
+                        <div class="item-box-pd">
+                            <a href="#" style="background-image: url(img/CUCdMygFFBD_carousel_01.jpg);">
+                            </a>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="pull-left">
+                    <div class="item-box">
+                        <div class="item-box-pd">
+                            <a href="#" style="background-image: url(img/CUE6lHJPZ79_carousel_01.jpg);">
+                            </a>
+                        </div>
+                    </div>
+                </li>
             </ul>
-            <ul class="instaimg1">
-                <li class="instaimg2"><img src="img/CUJgLTmPoXF_image.jpg"></li>
-                <li class="instaimg2"><img src="img/CVmM4uEPLMQ_carousel_01.jpg"></li>
-                <li class="instaimg2"><img src="img/CVnYQqeJ9wU_carousel_01.jpg"></li>
-                <li class="instaimg2"><img src="img/CVosOOhBVK0_carousel_01.jpg"></li>
-                <li class="instaimg2"><img src="img/CVuWarwvkTc_carousel_01.jpg"></li>
+            <ul class="clearfix">
+                <li class="pull-left">
+                    <div class="item-box">
+                        <div class="item-box-pd">
+                            <a href="#" style="background-image: url(img/CUJgLTmPoXF_image.jpg);">
+                            </a>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="pull-left">
+                    <div class="item-box">
+                        <div class="item-box-pd">
+                            <a href="#" style="background-image: url(img/CVmM4uEPLMQ_carousel_01.jpg);">
+                            </a>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="pull-left">
+                    <div class="item-box">
+                        <div class="item-box-pd">
+                            <a href="#" style="background-image: url(img/CVy_43xh4ni_carousel_01.jpg);">
+                            </a>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="pull-left">
+                    <div class="item-box">
+                        <div class="item-box-pd">
+                            <a href="#" style="background-image: url(img/CVosOOhBVK0_carousel_01.jpg);">
+                            </a>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="pull-left">
+                    <div class="item-box">
+                        <div class="item-box-pd">
+                            <a href="#" style="background-image: url(img/CVuWarwvkTc_carousel_01.jpg);">
+                            </a>
+                        </div>
+                    </div>
+                </li>
             </ul>
-            <ul class="instaimg1">
-                <li class="instaimg2"><img src="img/CVw8OEnBb8f_carousel_01.jpg"></li>
-                <li class="instaimg2"><img src="img/CVwbwMmv94F_carousel_01.jpg"></li>
-                <li class="instaimg2"><img src="img/CVwPCmzP6Qv_carousel_01.jpg"></li>
-                <li class="instaimg2"><img src="img/CVwvGEaBbzR_carousel_01.jpg"></li>
-                <li class="instaimg2"><img src="img/CVxj3trP49o_carousel_01.jpg"></li>
+            <ul class="clearfix">
+                <li class="pull-left">
+                    <div class="item-box">
+                        <div class="item-box-pd">
+                            <a href="#" style="background-image: url(img/CVw8OEnBb8f_carousel_01.jpg);">
+                            </a>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="pull-left">
+                    <div class="item-box">
+                        <div class="item-box-pd">
+                            <a href="#" style="background-image: url(img/CVwbwMmv94F_carousel_01.jpg);">
+                            </a>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="pull-left">
+                    <div class="item-box">
+                        <div class="item-box-pd">
+                            <a href="#" style="background-image: url(img/CVwPCmzP6Qv_carousel_01.jpg);">
+                            </a>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="pull-left">
+                    <div class="item-box">
+                        <div class="item-box-pd">
+                            <a href="#" style="background-image: url(img/CVwvGEaBbzR_carousel_01.jpg);">
+                            </a>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="pull-left">
+                    <div class="item-box">
+                        <div class="item-box-pd">
+                            <a href="#" style="background-image: url(img/CVxj3trP49o_carousel_01.jpg);">
+                            </a>
+                        </div>
+                    </div>
+                </li>
             </ul>
         </div>
-    </div>
 
+        <!-- footer -->
     <footer id="footer1">
         <div class="footer2">
-            <div class="footer3">
+            <nav class="footer3">
                 <ul>
                     <li style="width:12%;">
-                        <a href="/about/br_system.php">
+                        <a href="http://www.baskinrobbins.co.kr/about/br_system.php">
                             점포개설문의
                         </a>
                     </li>
                     <li style="width:12%;">
-                        <a href="/about/jobs.php">
+                        <a href="http://www.baskinrobbins.co.kr/about/jobs.php">
                             채용문의
                         </a>
                     </li>
@@ -269,59 +468,59 @@
                         <a href="https://www.spc.co.kr/csr/right-mng/spc-operation/" target="_blank">윤리신고센터</a>
                     </li>
                     <li style="width:12%;">
-                        <a href="http://www.happypointcard.com/serviceCenter/term1.spc" target="_blank">
+                        <a href="https://www.happypointcard.com/page/customer/term.spc" target="_blank">
                             이용약관
                         </a>
                     </li>
                     <li class="privacy" style="width:15%;">
-                        <a href="/customer/policy.php">
+                        <a href="http://www.baskinrobbins.co.kr/customer/policy.php">
                             개인정보처리방침
                         </a>
                     </li>
                     <li style="width:20%;">
-                        <a href="/customer/policy_cctv.php">
+                        <a href="http://www.baskinrobbins.co.kr/customer/policy_cctv.php">
                             영상정보처리기기운영관리방침
                         </a>
                     </li>
                     <li style="width:17%;">
-                        <a href="http://happy.spc.co.kr/" target="_blank">
+                        <a href="http://happy.spc.co.kr/indexframe.jsp" target="_blank">
                             거래희망회사 사전등록
                         </a>
                     </li>
                 </ul>
-            </div>
+            </nav>
             
             <div class="family">
                 <div class="inner">
                     <nav class="brand">
                         <ul>
-                            <li class="li_1">
-                                <a href="http://www.happypointcard.com" target="_blank">
+                            <li class="li1">
+                                <a href="https://www.happypointcard.com/page/main/index.spc" target="_blank">
                                     <img src="img/btn_happypoint.png" alt="HAPPY POINT">
                                 </a>
                             </li>
-                            <li class="li_2">
-                                <a href="http://m.celectory.com" target="_blank">
+                            <li class="li2">
+                                <a href="http://m.celectory.com/mobile/gift/recommend;jsessionid=PXZm1_mB_eIvJXbZYyQFGUQH6QApZC3jGoxcjwT2BJiIiJKKenvJ!-171209409!-1854959755?" target="_blank">
                                     <img src="img/btn_happymarket.png" alt="HAPPY MARKET">
                                 </a>
                             </li>
-                            <li class="li_3">
+                            <li class="li3">
                                 <a href="http://www.spc.co.kr/contributionAll" target="_blank">
                                     <img src="img/btn_spc_story.png" alt="SPC그룹 사회공헌활동 SPC 행복한 이야기">
                                 </a>
                             </li>
-                            <li class="li_4">
-                                <a href="https://sealinfo.verisign.com/splash?form_file=fdf/splash.fdf&amp;dn=WWW.BASKINROBBINS.CO.KR&amp;lang=ko" target="_blank">
+                            <li class="li4">
+                                <a href="https://sealinfo.verisign.com/splash?form_file=fdf/splash.fdf&dn=WWW.BASKINROBBINS.CO.KR&lang=ko" target="_blank">
                                     <img src="img/btn_norton.gif" alt="Norton SECURED">
                                 </a>
                             </li>
-                            <li class="li_5">
-                                <a href="http://www.kca.go.kr/ccm/" target="_blank">
+                            <li class="li5">
+                                <a href="https://www.kca.go.kr/ccm/" target="_blank">
                                     <img src="img/btn_ccm.gif" alt="소비자중심경영 인증제도">
                                 </a>
                             </li>
                             <li>
-                                <a href="http://knqa.ksa.or.kr/knqa/2276/subview.do" target="_blank">
+                                <a href="https://knqa.ksa.or.kr/knqa/2276/subview.do" target="_blank">
                                     <img src="img/btn_ksa.png" alt="국가품질상 - KSA 한국표준협회">
                                 </a>
                             </li>
@@ -345,16 +544,16 @@
                 </div>
             </div>
     
-            <div class="info">
-                <h1 class="logo">
+            <div class="info1">
+                <h1 class="logo2">
                     <img src="img/footer_logo.png" alt="baskin robbins">
                 </h1>
                 <div class="copy1">
                     <p>사업자 등록번호 : 303-81-09535</p>
                     <p>비알코리아(주) 대표이사 도세호</p>
-                    <address class="address">
+                    <p class="address">
                         서울특별시 서초구 남부순환로 2620(양재동 11-149번지)
-                    </address>
+                    </p>
                 </div>
                 <div class="copy2">
                     <p>TEL : 080-555-3131</p>
@@ -366,5 +565,6 @@
             </div>
         </div>
     </footer>
-</body>
+    <script src="js/slide.js"></script>
+    </body>
 </html>
