@@ -1,9 +1,9 @@
-@charset "utf-8";
+/* @filename : reset.css
+ * @description : reset
+ * @author : 이동은 (cjsakfn2@gmail.com)
+ */
 
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+@charset "utf-8";
 
 /** 추가내용: 모바일 웹 브라우저의 가로뷰에서 글자 크기가 확대되는 현상 방지 */
 * {
